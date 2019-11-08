@@ -53,109 +53,9 @@
                             "command": "EVENT_END"
                         }
                     ]
-                },
-                {
-                    "id": "39c0b58d-ee8c-482d-b33e-158951d95f58",
-                    "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 6,
-                    "y": 17,
-                    "movementType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "frame": 3
-                },
-                {
-                    "id": "544191b9-9a8b-42a8-939b-5a5e07c15032",
-                    "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 11,
-                    "y": 6,
-                    "movementType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "frame": 2
-                },
-                {
-                    "id": "99b8829e-3431-41d8-adb9-c412215f07de",
-                    "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 4,
-                    "y": 13,
-                    "movementType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "frame": 2
                 }
             ],
             "triggers": [
-                {
-                    "id": "ac011f8b-72cb-4e80-bafe-072445a98867",
-                    "x": 3,
-                    "y": 3,
-                    "width": 1,
-                    "height": 1,
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "b76a39a7-9d93-4e18-a483-c8cc9d5ae85c",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": "No food in here...\nthis house is\ncompletly empty?"
-                            }
-                        },
-                        {
-                            "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
-                            "command": "EVENT_END"
-                        }
-                    ]
-                },
-                {
-                    "id": "243a54b9-3453-418b-8518-51a882da97a9",
-                    "x": 17,
-                    "y": 5,
-                    "width": 1,
-                    "height": 1,
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "103d6236-569d-40be-8bd3-999e6dcff7e2",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": "The TV is just\nstatic"
-                            }
-                        },
-                        {
-                            "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
-                            "command": "EVENT_END"
-                        }
-                    ]
-                },
-                {
-                    "id": "ab4a861a-facb-41dc-8484-7dde026bec74",
-                    "x": 17,
-                    "y": 14,
-                    "width": 1,
-                    "height": 1,
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "0268cce9-5e9e-4a13-87ef-810f545a87d9",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Hmm.. no food",
-                                    "Mom must have had\nto be in a rush",
-                                    "she always leaves\nme breakfast"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
-                            "command": "EVENT_END"
-                        }
-                    ]
-                },
                 {
                     "id": "af85a98e-9208-4e33-ad6f-913084984161",
                     "x": 2,
@@ -540,48 +440,16 @@
             "id": "40519ba0-09bd-4ad5-95f8-89f2092c4a3a",
             "name": "Final Decision scene ",
             "backgroundId": "33570209-502e-47bd-bd7c-266425934a5b",
-            "x": 607,
+            "x": 608,
             "y": 30,
             "width": 25,
             "height": 23,
             "actors": [
                 {
-                    "id": "33bf3291-03da-4709-866c-2466072162b9",
-                    "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
-                    "x": 20,
-                    "y": 3,
-                    "movementType": "faceInteraction",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "script": [
-                        {
-                            "id": "8cec37f7-71d0-453d-a486-20ff6dcc9fb5",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Me: Where am I?\nAngle: in a plain\ncreated not by",
-                                    "your own\nimaginination but\nby lucifer",
-                                    "Angle: you dont\nhave much time the\nsun will soon ",
-                                    "rise! you must do\nwhat you fear the\nmost to escape!",
-                                    "Me: what are you\nsaying? what does\nthis mean!",
-                                    "Angle: You must\ntake a leap of\nfaith. However ",
-                                    "I can not\nguarante\nyou will wake up",
-                                    "Me: this is all\nmadness!"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
-                            "command": "EVENT_END"
-                        }
-                    ]
-                },
-                {
                     "id": "b44a2cf9-06b0-458b-8694-419d25efe139",
                     "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 6,
-                    "y": 5,
+                    "x": 3,
+                    "y": 6,
                     "movementType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -592,7 +460,7 @@
                     "id": "0714ec16-fe42-40f7-97d0-01332e4ca83e",
                     "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
                     "x": 11,
-                    "y": 9,
+                    "y": 10,
                     "movementType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -613,8 +481,19 @@
                 {
                     "id": "5a35f160-a808-4ae6-83b3-a511ecbd2093",
                     "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 5,
-                    "y": 12,
+                    "x": 4,
+                    "y": 15,
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "frame": 2
+                },
+                {
+                    "id": "3a1d777b-3ec5-485f-ada3-145d764e11f3",
+                    "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
+                    "x": 10,
+                    "y": 4,
                     "movementType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -635,8 +514,8 @@
                 {
                     "id": "4def3aa1-ef31-46bc-bb40-dfd9598ed5a5",
                     "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 9,
-                    "y": 19,
+                    "x": 14,
+                    "y": 18,
                     "movementType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -658,13 +537,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Me: where am I?\nLucifer: asleep in\nyour own living ",
-                                    "Hell. now\ntell...me\nare you afraid of",
-                                    "trapped in your\nworst nightmare?",
-                                    "me: being alone\nisn't what I fear!\nIts not waking ",
-                                    "up!\nLucifer: ahhh \nsee well then..",
-                                    "Take this\nMelatonin. I\nguarante you",
-                                    "that you will\nlive."
+                                    "Ah trying to\nescape this\ntwisted realm?",
+                                    "Take this\nMelatonin"
                                 ],
                                 "avatarId": ""
                             }
@@ -695,8 +569,8 @@
                                     "command": "EVENT_SWITCH_SCENE",
                                     "args": {
                                         "sceneId": "51b889cf-f5d2-4f6f-b59a-d08bdcacc494",
-                                        "x": 14,
-                                        "y": 13,
+                                        "x": 0,
+                                        "y": 0,
                                         "direction": "",
                                         "fadeSpeed": "2"
                                     }
@@ -729,31 +603,6 @@
                 }
             ],
             "triggers": [
-                {
-                    "id": "42361ed0-63cf-4954-a175-718f7758b4ac",
-                    "x": 17,
-                    "y": 6,
-                    "width": 1,
-                    "height": 1,
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "89711fd6-d885-4b1c-a8db-07a099295512",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "How did someone\nget on my roof? ",
-                                    "This may be my\nonly chance to\nfigure out what ",
-                                    "is going on here\n"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
-                            "command": "EVENT_END"
-                        }
-                    ]
-                },
                 {
                     "trigger": "walk",
                     "id": "ed76982f-a191-4b07-bb67-00248d62a7b9",
@@ -1005,7 +854,7 @@
                                 "sceneId": "4aa81cbb-ea98-4960-8a84-17f9b6c63082",
                                 "x": 2,
                                 "y": 16,
-                                "direction": "up",
+                                "direction": "",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -1793,10 +1642,10 @@
                 20,
                 64,
                 2,
-                72,
-                1,
-                249,
-                63
+                200,
+                254,
+                33,
+                0
             ],
             "id": "2a1ac7ba-8b26-4a08-a719-6a3cdbcfc007",
             "x": 1069,
@@ -1999,8 +1848,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "sis: \nI N S O M N I A",
-                                    "Me: Whats wrong\nwith\nyou sis?"
+                                    "I N S O M N I A"
                                 ],
                                 "avatarId": ""
                             }
@@ -2208,12 +2056,9 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "I N S O M N I A",
+                                    "I S O M N I A ",
                                     "What the! My\nproject is\ncomplety gone",
-                                    "wait it says\nsomething else...",
-                                    "\"you must escape\nthis relm before\nthe sun begins ",
-                                    "to rise or pay the\nprice and enjoy\nyour time\"",
-                                    "I really hope im\njust dreaming "
+                                    "I really hope im\ndreaming."
                                 ]
                             }
                         },
@@ -2317,27 +2162,14 @@
                 0,
                 0,
                 0
-            ],
-            "script": [
-                {
-                    "id": "9b68c847-8ae8-466c-9c0a-c089ab8135e1",
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "player"
-                    }
-                },
-                {
-                    "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
-                    "command": "EVENT_END"
-                }
             ]
         },
         {
             "id": "2b2d1baf-e433-4994-859f-2e680dea4df1",
             "name": "Scene 12",
             "backgroundId": "8bd2ed15-4c0d-4004-97fb-27c28e7ff7a4",
-            "x": 280,
-            "y": 288,
+            "x": 257,
+            "y": 300,
             "width": 20,
             "height": 18,
             "actors": [],
@@ -2440,53 +2272,6 @@
                         },
                         {
                             "id": "881fcbd1-7f85-4444-8e94-2f6da4b1bc2a",
-                            "command": "EVENT_END"
-                        }
-                    ]
-                },
-                {
-                    "id": "45852c3b-83ef-4ad6-9b6a-102bf1d6cab7",
-                    "command": "EVENT_SET_INPUT_SCRIPT",
-                    "args": {
-                        "input": "b"
-                    },
-                    "true": [
-                        {
-                            "id": "1525fcc0-5358-4475-99f8-3002aeb672cd",
-                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "b",
-                                    "left",
-                                    "a",
-                                    "up",
-                                    "down",
-                                    "start",
-                                    "select",
-                                    "right"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "d4b78e7d-6cff-49ae-92d2-1b9d078dba7e",
-                            "command": "EVENT_SCENE_POP_STATE",
-                            "args": {
-                                "fadeSpeed": "2"
-                            }
-                        },
-                        {
-                            "id": "ed7a1c3d-b487-40b4-b98b-3158c5e80244",
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "ef8ce605-b74a-4307-9f1c-c6cd071aae2c",
-                                "x": 0,
-                                "y": 0,
-                                "direction": "",
-                                "fadeSpeed": "2"
-                            }
-                        },
-                        {
-                            "id": "dd41c655-6f6c-40cb-8655-98cb0369d984",
                             "command": "EVENT_END"
                         }
                     ]
@@ -2634,34 +2419,11 @@
             "id": "135950b0-d33e-4c60-9cea-c1923dbc937b",
             "name": "Scene 14",
             "backgroundId": "3dc27efc-9f50-49ff-b5f0-bb2863f3dc78",
-            "x": 898,
-            "y": 497,
+            "x": 882,
+            "y": 500,
             "width": 12,
             "height": 18,
-            "actors": [
-                {
-                    "id": "55f2b834-8dac-4a84-9465-57aaa39dd8b7",
-                    "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 3,
-                    "y": 3,
-                    "movementType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "frame": 1
-                },
-                {
-                    "id": "a6e4f17b-3e3d-4b4a-8285-95e2cfb6ce98",
-                    "spriteSheetId": "f52812da-2537-483e-a22f-73b56c116d44",
-                    "x": 7,
-                    "y": 16,
-                    "movementType": "static",
-                    "direction": "down",
-                    "moveSpeed": "1",
-                    "animSpeed": "3",
-                    "frame": 3
-                }
-            ],
+            "actors": [],
             "triggers": [
                 {
                     "id": "5c305d5e-0953-4e3a-99b4-318566abb89d",
@@ -3031,30 +2793,6 @@
             ],
             "triggers": [
                 {
-                    "id": "9d430dbb-631f-415b-aeea-337d199b003e",
-                    "x": 3,
-                    "y": 16,
-                    "width": 1,
-                    "height": 1,
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "250aa0e8-08a6-4b04-8b1a-584dd0a01cae",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "I have wasted to\nmuch time.",
-                                    "I need to move now\nthe sun should be\nup any minute!"
-                                ]
-                            }
-                        },
-                        {
-                            "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
-                            "command": "EVENT_END"
-                        }
-                    ]
-                },
-                {
                     "id": "562d76d9-958b-48cc-8e08-b9f1db75ed34",
                     "x": 9,
                     "y": 1,
@@ -3080,9 +2818,9 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "40519ba0-09bd-4ad5-95f8-89f2092c4a3a",
-                                "x": 16,
+                                "x": 17,
                                 "y": 6,
-                                "direction": "down",
+                                "direction": "",
                                 "fadeSpeed": "2"
                             }
                         },
@@ -3131,13 +2869,18 @@
             "id": "51b889cf-f5d2-4f6f-b59a-d08bdcacc494",
             "name": "Scene 18",
             "backgroundId": "40fda058-df90-4205-a239-fe77bce4fa79",
-            "x": 305.5,
+            "x": 304.5,
             "y": 30,
             "width": 32,
             "height": 32,
             "actors": [],
             "triggers": [],
             "collisions": [
+                12,
+                0,
+                0,
+                0,
+                15,
                 0,
                 0,
                 0,
@@ -3187,16 +2930,11 @@
                 0,
                 0,
                 0,
-                224,
-                1,
                 0,
                 0,
-                32,
-                1,
                 0,
                 0,
-                224,
-                1,
+                0,
                 0,
                 0,
                 0,
@@ -3269,14 +3007,14 @@
             ],
             "script": [
                 {
-                    "id": "e5d23550-57e7-4940-9c24-22a6759d4e8c",
+                    "id": "aba79b49-a5f7-4cad-9e3f-54f44e4400f4",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
                         "actorId": "player"
                     }
                 },
                 {
-                    "id": "d903812b-374d-476f-b759-9d761629cc33",
+                    "id": "da14b1aa-f223-4d73-9bd7-d9d91069794d",
                     "command": "EVENT_END"
                 }
             ]
@@ -3431,6 +3169,16 @@
             "_v": 1571967353419
         },
         {
+            "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
+            "name": "outside",
+            "width": 32,
+            "height": 32,
+            "imageWidth": 256,
+            "imageHeight": 256,
+            "filename": "outside.png",
+            "_v": 1571964697846
+        },
+        {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
             "name": "stars",
             "width": 32,
@@ -3453,6 +3201,38 @@
     ],
     "spriteSheets": [
         {
+            "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+            "name": "cat",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "cat.png",
+            "_v": 1571964697886
+        },
+        {
+            "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
+            "name": "checkbox",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "checkbox.png",
+            "_v": 1571964697886
+        },
+        {
+            "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+            "name": "dog",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "dog.png",
+            "_v": 1571964697887
+        },
+        {
+            "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+            "name": "duck",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "duck.png",
+            "_v": 1571964697887
+        },
+        {
             "id": "04378d7b-df42-4f0f-80a3-ade7f048dce1",
             "name": "Final Key",
             "numFrames": 1,
@@ -3461,11 +3241,27 @@
             "_v": 1571964697886
         },
         {
+            "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
+            "name": "fire",
+            "numFrames": 4,
+            "type": "animated",
+            "filename": "fire.png",
+            "_v": 1571964697887
+        },
+        {
             "id": "f52812da-2537-483e-a22f-73b56c116d44",
             "name": "Fog",
             "numFrames": 4,
             "type": "animated",
             "filename": "Fog.png",
+            "_v": 1571964697887
+        },
+        {
+            "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
+            "name": "ice",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "ice.png",
             "_v": 1571964697887
         },
         {
@@ -3509,12 +3305,60 @@
             "_v": 1571964697887
         },
         {
+            "id": "a0442b6a-634f-44da-9962-77938e3ed839",
+            "name": "radio",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "radio.png",
+            "_v": 1571964697887
+        },
+        {
+            "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
+            "name": "rock",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "rock.png",
+            "_v": 1571964697887
+        },
+        {
+            "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
+            "name": "sage",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "sage.png",
+            "_v": 1571964697888
+        },
+        {
+            "id": "000a6dde-cb60-436e-b357-30a529daa139",
+            "name": "savepoint",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "savepoint.png",
+            "_v": 1571964697888
+        },
+        {
+            "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+            "name": "signpost",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "signpost.png",
+            "_v": 1571964697888
+        },
+        {
             "id": "95f8b9c6-d72c-4a50-8e9a-9dcf08bd268a",
             "name": "Teddy",
             "numFrames": 1,
             "type": "static",
             "filename": "Teddy.png",
             "_v": 1571964697899
+        },
+        {
+            "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
+            "name": "torch",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "torch.png",
+            "_v": 1571964697888
         }
     ],
     "music": [
